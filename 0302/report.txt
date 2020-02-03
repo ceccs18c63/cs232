@@ -1,0 +1,200 @@
+CEC CS 18 c63
+Densil Edmond
+Input:
+--------------------------------
+#1: Linux commands
+---------------------------------
+ls
+ls
+ls -l
+ls -lt
+ls -ltr
+ls ab* -d
+alias
+alias ll=’ls -al’
+unalias ll
+~ /.bash_aliases
+ll
+>
+abc.tct
+cat abc.txt
+cat
+>
+abc.txt
+ˆ z
+sort
+field separator: white space
+sort -n fn
+sort -nk7 fn
+sort -rnk7 fn
+sort -t’$\t’ -k7 fn
+cut
+field separator: TAB
+cut -f3 fn
+cut -f-3
+cut f1-3
+cut f3-
+cut f3 -d’ ’
+paste, grep, join
+paste a.txt b.txt
+join r.t1.txt r.t2.txt // files should be sorted on common filed
+join -1 2 -2 3 r.t1.txt r.t2.txt //join on second field of file 1 and 3rd
+field of file2
+join r.t1.txt r.t2.txt -j2 // common filed is second column
+grep 234 abc.txt
+grep -c
+grep -w
+grep -r
+grep "abc\|xyz" pqr.txt
+grep -E "abc|xyz" pqr.txt
+AND
+grep -E ’pattern1.*pattern2’ filename
+Miscellaneous
+ln -s
+uname
+uname -a
+man
+cat -n // to insert line numbers before every line
+sed ’1i \\t Line 1 after tab \n Line 2 \t Line 2 \n Line 3 \n’
+temp1.txt
+free
+Networking
+ifconfig
+ifconfig -a
+ifconfig eth0 192.168.0.20
+route
+route add default gw 192.168.1.1
+iwconfig
+dhclient usb0
+tcpdump -i eth0
+ping
+ifup
+ifdown
+Remote access
+ssh s1
+ssh 14.139.184.215
+ssh ask@14.139.184.215
+ssh ask@mec.ac.in
+scp temp1.txt 14.139.184.215:
+scp temp1.txt ask@14.139.184.215:
+scp s1:temp1.txt .
+scp ask@14.139.184.215:temp1.txt .
+rsync
+rsync -a
+rsync -a index.html s1:c3a
+rsync -a {index.html,sess.txt} s1:c3a
+process
+ps
+ps -ef
+kill
+kill -9 1234
+pkill dhcp
+top
+service appache start
+Redirection
+ll
+>
+abc.tct
+ps -ef | grep ask
+ask
+users
+who
+who -a
+whoami
+id //user, group id
+id -u //user id
+id -un //user name
+last
+last -n9
+last lpp
+useradd ask
+useradd -d /home/ask ask
+usermod
+passwd ask
+deluser
+su
+su lpp
+mount
+mount /media/usb /home/ask/usb
+umount /media/usb
+ask
+Linux Commands
+CEC FOSS Lab:  Some Linux Commands
+file permissions
+ll
+chmod +rwx a.txt
+chmod 777 b.txt
+chown ask abc.txt
+chown ask:ask abc.txt
+Miscellaneous examples
+To remove blank line
+grep ’^.’ abc.txt
+To insert one tab space at the beginning of each line
+awk ’{print "\t" $0}’ roll.txt
+At the end of the line: awk ’{print $0 "\t" }’ ap.ieee.txt
+pdf to text
+pdftotext a.pdf -layout
+To sum the numbers in file
+awk ’{s+=$1} END {print s}’ file
+To sort excluding top line
+(head -n 1 a.txt && tail -n +2 a.txt | sort -nr -k5 -t$’\t’)
+To grep contents of first file not in second file
+grep -v -f rank.4.txt rank.txt
+To list lines stating with -
+grep ’^-’ cs.4.rank.txt
+To sort on second column then on first column
+sort -t- -k2,2 -k1 54.abs.txt
+printing
+lp fn
+lp -o fitplot
+-o page-set=odd //odd side printing option
+-o outputorder=reverse // Print in reverse page order
+lp -d
+lp -h
+-n
+Miscellaneous
+poweroff
+reboot
+write mec
+wall
+diff
+wget
+file
+less
+more
+tar xvzfp dir.tar.gz dir
+or files
+tar cvzfp dir.tar.gz
+tar tvzfp dir.tar.gz
+tar cvfp f.tar f1.txt f2.txt
+fsck
+Output:
+
+total 44
+drwxrwxr-x 3 s4c2 s4c2  4096 Jan 27 11:57 ./
+drwxrwxr-x 3 s4c2 s4c2  4096 Jan 27 10:19 ../
+-rw-rw-r-- 1 s4c2 s4c2     0 Jan 27 12:03 abc.txt
+-rw-rw-r-- 1 s4c2 s4c2    12 Jan 27 11:42 cba.txt
+drwxrwxr-x 7 s4c2 s4c2  4096 Jan 27 10:35 .git/
+-rw-rw-r-- 1 s4c2 s4c2    33 Jan 27 12:01 out.txt
+-rw-rw-r-- 1 s4c2 s4c2 24576 Jan 27 12:02 work.txt
+
+56
+23
+14
+36
+
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+
