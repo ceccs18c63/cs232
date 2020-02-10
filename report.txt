@@ -1,0 +1,71 @@
+CEC CS 18 C63
+
+DENSIL EDMOND
+
+--------------------------------
+#1:NETWORKING TASK(t3) 
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+Input:
+
+	ifconfig -a
+	route -n
+	route add default gw 192.168.0.30
+	cat /etc/resolv.conf
+	echo "nameserver 1.1.1.1" >> resolv.conf
+
+--------------------------------
+Output:
+
+	ifconfig -a displays all available network interfaces
+	route -n displays kernal routing table
+	route add, is used add a new route to the table,
+	route add default gw 192.168.0.2, a default gateway in this case
+	echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+	to add 1.1.1.1 (1.1.1.1 is the DNS of Cloudflare) to system domain resolver configuration
+
+--------------------------------
+#2:NETWORKING TASK(t4) 
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+Input:
+
+	ssh
+	rsync
+	scp
+
+--------------------------------
+Output:
+
+	ssh cs18c47@192.168.0.30, is used to open a secured connection to remote device
+	rsync -av 2701/ test/, is used to sync the files across 2701/ and test/ 
+	scp report.txt cs18c47@192.168.0.30:2701, this is used to upload report.txt to 2701/ in the host 192.168.0.30
+
+--------------------------------
+#2:FTP USAGE(t5) 
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+Input:
+	sftp cs18c47@192.168.0.30
+	put report.txt
+	lcd ..
+	lpwd
+	get work.txt
+	rm work.txt
+	quit
+
+--------------------------------
+Output:
+
+	sftp cs18c47@192.168.0.30, connect to host 192.168.0.30 via sftp
+	put report.txt, upload report.txt
+	lcd .., change local directory 
+	lpwd, show local present working directory
+	get work.txt, copy work.txt from host to local system
+	rm work.txt, remove work.txt from host
+	quit, quit current ftp session
+
+--------------------------------

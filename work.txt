@@ -1,0 +1,269 @@
+Script started on Monday 10 February 2020 12:04:15 PM IST
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c63/cs232/0707s4c2@lab2-AcerPower-Series:~/ceccs18c63/cs232/0707$ historu[Ky
+    1  cd 
+    2  ping
+    3  git init
+    4  git pull http://github.com/ceccs18c63/cs232
+    5  if config -a; if config eth0 192.168.0.30; route; route add default gw 192.168.0.30; iwconfig; dhclient usb0; tcpdump -i eth0; ping; ifup; ifdown
+    6  history
+    7  cd
+    8  mkdir ceccs18cxx - replace xx appropriately
+    9  cd ceccs18cxx
+   10  mkdir cs232
+   11  cd cs232
+   12  git init
+   13  git pull http://github.com/ceccs18cxx/cs232
+   14  cd
+   15  mkdir ceccs18c63
+   16  cd ceccs18c63
+   17  mkdir cs232
+   18  cd cs232
+   19  git init
+   20  git pull http://github.com/ceccs18cxx/cs232
+   21  history
+   22  cd
+   23  mkdir ceccs18c63
+   24  cd ceccs18c63
+   25  mkdir cs232
+   26  cd 232
+   27  cd cs232
+   28  git init
+   29  git pull http://github.com/ceccs18c63/cs232
+   30  history
+   31  git init
+   32  git pull http://github.com/ceccs18c63/cs232
+   33  monugithub
+   34  ls
+   35  ls l
+   36  ls -l
+   37  ls -lt
+   38  ls -ltr
+   39  ls ab* -d
+   40  ls -la
+   41  ls -t
+   42  ls -S
+   43  ls *
+   44  ls -R
+   45  ls *.txt
+   46  ls > out.txt
+   47  ls -d */
+   48  ls -d $PWD/*
+   49  sort data.txt
+   50  sudo apt update && sudo apt install firefox
+   51  s4c2
+   52  su lab2
+   53  history
+   54  grep harry/etc/password
+   55  cd ceccs18c63
+   56  cd cs232
+   57  history
+   58  grep -i "is" samplefile
+   59  join r.t1.txt.r.t2.txt
+   60  join r.t1.txt r.t2.txt
+   61  ls
+   62  ls -l
+   63  ls -lt
+   64  ls -ltr
+   65  ls ab* -d
+   66  alias
+   67  alias ll='ls -alF'
+   68  unalias
+   69  unalias ll
+   70  ~ /.bash_aliases
+   71  ll > abc.txt
+   72  ll >abc.txt
+   73  ll>abc.txt
+   74  cat abc.txt
+   75  cat > abc.txt
+   76  history
+   77  cd ceccs18c63
+   78  cd cs232
+   79  alias
+   80  alias egrep='egrep --color=auto'
+   81  alias fgrep='fgrep --color=auto'
+   82  alias grep='grep --color=auto'
+   83  alias l='ls -CF'
+   84  alias la='ls -A'
+   85  alias ll='ls -alF'
+   86  alias ls='ls --color=auto'
+   87  alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+   88  cat >abc.txt
+   89  field separator
+   90  sort -n fn
+   91  cat abc.txt
+   92  cat >cba.txt0
+   93  abc.txt
+   94  sort -n abc.txt
+   95  sort -n cba.txt
+   96  join r.abc.txt r.cba.txt
+   97  join abc.txt cba.txt
+   98  sort -nk7 abc.txt
+   99  sort -nk7 cba.txt
+  100  sort -rnk7 abc.txt
+  101  sort -rnk7 cba.txt
+  102  sort -t'$\t' -k7 abc.txt
+  103  sort -t'$\\t' -k7 abc.txt
+  104  sort -t'$t' -k7 abc.txt
+  105  sort -t'$' -k7 abc.txt
+  106  sort -t't' -k7 abc.txt
+  107  route
+  108  cut cba.txt
+  109  cut --help
+  110  script work.txt
+  111  history
+  112  cat > abc.txt
+  113  cat abc.txt
+  114  ls
+  115  ls l
+  116  ls -l
+  117  ls -lt
+  118  ls -ltr
+  119  ls ab* -d
+  120  ls -la
+  121  ls -t
+  122  ls -S
+  123  alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+  124  ls *
+  125  ls -R
+  126  ls *.txt
+  127  ls > out.txt
+  128  ls -d */
+  129  ls -d $PWD/*
+  130  sort data.txt
+  131  grep -i "is" samplefile
+  132  alias
+  133  cd ceccs18c63
+  134  cd cs232
+  135  if config; 192.168.0.30; ping; exit; 
+  136  cd ceccs18c63
+  137  cd 232
+  138  cd ceccs18c63
+  139  cd cs232
+  140  script work.txt
+  141  cd ceccs18c63
+  142  cd cs232
+  143  script work.txt
+  144  pdftotext -layout mark.pdf mark.txt
+  145  grep -l
+  146  grep --help
+  147  pdftotext -layout result.pdf result.txt
+  148  awk '/manager/CHN18CS result.txt
+  149  exit
+  150  awk '\manager\ CHN18CS' result.txt
+  151  awk  '/CHN18CS/' result.txt
+  152  exit
+  153  cd ceccs18c63
+  154  cd cs232
+  155  script work.txt
+  156  awk  '/CHN18CS/' result.txt
+  157  pdftotext -layout result.pdf result.txt
+  158  awk  '/CHN18CS/' result.txt
+  159  exit
+  160  cd ceccs18c63
+  161  cd cs232
+  162  script work.txt
+  163  history
+  164  script work.txt
+  165  sftp cs18c63@192.168.0.30
+  166  script work.txt
+  167  awk  '' result.txt
+  168  awk  '/CHN18CS/' result.txt >cs.txt
+  169  awk  '/F/ {print}' cs.txt >fail.txt
+  170  cat fail.txt
+  171  ls
+  172  cd 0302
+  173  history
+  174  hiostory
+  175  history
+  176  cat fail.txt
+  177  cd
+  178  cd ceccs18c63
+  179  cd cs232
+  180  cat fail.txt
+  181  cd 0302
+  182  exit
+  183  cd ceccs18c63
+  184  cd cs232
+  185  cd 0302
+  186  script.txt
+  187  script work.txt
+  188  ceccs18c63
+  189  cd ceccs18c63
+  190  cd cs 232
+  191  cd 232
+  192  cd cs232
+  193  cd 0302
+  194  script work.txt
+  195  awk
+  196  awk fail.txt
+  197  cd
+  198  cd ceccs18c63
+  199  cd 0302
+  200  cd cs232
+  201  awk fail.txt
+  202  awk {print} fail.txt
+  203  awk {print} cs.txt
+  204  cd ceccs18c63
+  205  cd cs232
+  206  script work.txt
+  207  if config ; -a
+  208  cd ceccs18c63
+  209  cd cs232
+  210  script work.txt
+  211  if config -a; route -n; route add default gw 192.168.0.2; ping 192.168.0.30;  exit
+  212  cd ceccs18c63
+  213  cd cs232
+  214  ifconfig
+  215  ifconfig -a
+  216  route -n
+  217  route add default gw 192.168.0.2
+  218  ping 192.168.0.1
+  219  cat /etc/resolv.conf
+  220  echo "name server 1.1.1.1">>resolv.conf
+  221  ssh cs18c63@192.168.0.30
+  222  gedit
+  223  ssh cs18c63@192.168.0.30
+  224  history
+  225  ssh cs18c63@192.168.0.30
+  226  if config -a;  exit; 
+  227  cd ceccs18c63
+  228  cd cs232
+  229  cd 0302
+  230  history
+  231  ifconfig -a
+  232  route -n
+  233  route add default gw 192.168.0.2
+  234  ping 192.168.0.1
+  235  cat \etc\resolv.conf
+  236  cd..
+  237  cat /etc/resolv.conf
+  238  echo "name server 1.1.1.1">>resolv.conf
+  239  sort data.txteccs18c47/cs232/27010m$ cat /etc/resolv.conf 
+  240  # Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+  241  #     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+  242  nameserver 127.0.1.1
+  243  search example.org
+  244  sftp cs18c63@192.168.0.30
+  245  history
+  246  ls
+  247  cd..
+  248  cd ..
+  249  ls
+  250  ssh cs18c63@192.168.0.30
+  251  cd 0302
+  252  history
+  253  pwd
+  254  cd ..
+  255  mkdir 0707
+  256  cd0707
+  257  cd 0707
+  258  gedit report.txt
+  259  exit
+  260  history
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c63/cs232/0707s4c2@lab2-AcerPower-Series:~/ceccs18c63/cs232/0707$ history[3Pexitgedit report.txt[9Pcd 0707[1P0707mkdir 0707[5Pcd ..[2Ppwdhistorycd 0302ssh cs18c63@192.168.0.30ls[Kssh cs18c63@192.168.0.30ls[Kcd ..[1P..[2Plshistorysftp cs18c63@192.168.0.30[7Pearch example.orgftp cs18c63@192.168.0.30
+^[[A    l ssh: connect to host 192.168.0.30 port 22: Connection timed out
+Couldn't read packet: Connection reset by peer
+]0;s4c2@lab2-AcerPower-Series: ~/ceccs18c63/cs232/0707s4c2@lab2-AcerPower-Series:~/ceccs18c63/cs232/0707$ edxi[K[K[Kxit
+exit
+
+Script done on Monday 10 February 2020 12:08:01 PM IST
