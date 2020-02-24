@@ -1,0 +1,38 @@
+CEC CS 18 C63
+Densil Edmond
+
+--------------------------------
+#1: Scripting tast (t2)
+---------------------------------
+Command/Shell script/Program name
+
+/SX/script.sh
+---------------------------------
+
+Input:
+---------------
+	# result downloaded from ktu site
+		/SX/result_CHN.pdf
+
+	# student details file containing roll number 
+		/SX/students.txt
+
+--------------------------------
+Output:
+
+	# file with cgpa/count of subjects student failed in 
+		/SX/cgpa.txt
+
+
+-------------------
+Remarks:
+
+	X in 'SX' is replaced with 1 or 2 for corresponding semester
+		eg: /S1/script.sh
+
+
+	Results of S1 & S2 are seperated into 2 sub directories named S! & S@ respectively.
+
+
+-------------------------------------
+-------------------------------------
