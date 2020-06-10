@@ -1,0 +1,35 @@
+Script started on 2020-06-10 20:41:33+0530
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;user@user-Aspire-A515-53K: ~/ceccs18c63/cs232[01;32muser@user-Aspire-A515-53K[00m:[01;34m~/ceccs18c63/cs232[00m$ enter the limit
+
+Command 'enter' not found, did you mean:
+
+  command 'enber' from deb asn1c
+  command 'entr' from deb entr
+
+Try: sudo apt install <deb name>
+
+]0;user@user-Aspire-A515-53K: ~/ceccs18c63/cs232[01;32muser@user-Aspire-A515-53K[00m:[01;34m~/ceccs18c63/cs232[00m$ gedit factorial.pl
+]0;user@user-Aspire-A515-53K: ~/ceccs18c63/cs232[01;32muser@user-Aspire-A515-53K[00m:[01;34m~/ceccs18c63/cs232[00m$ ^[[2~[K[K[K[Kgedit factorial.pl[Kgedit hello.plperl factorial.pl
+]0;user@user-Aspire-A515-53K: ~/ceccs18c63/cs232[01;32muser@user-Aspire-A515-53K[00m:[01;34m~/ceccs18c63/cs232[00m$ gedit hello.plperl factorial.pl
+]0;user@user-Aspire-A515-53K: ~/ceccs18c63/cs232[01;32muser@user-Aspire-A515-53K[00m:[01;34m~/ceccs18c63/cs232[00m$ gedit hello.plperl factorial.pl[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K perl factorial.pl
+]0;user@user-Aspire-A515-53K: ~/ceccs18c63/cs232[01;32muser@user-Aspire-A515-53K[00m:[01;34m~/ceccs18c63/cs232[00m$ gedit hello.pl perl factorial.pl[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+]0;user@user-Aspire-A515-53K: ~/ceccs18c63/cs232[01;32muser@user-Aspire-A515-53K[00m:[01;34m~/ceccs18c63/cs232[00m$ gedit hello.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pls.plu.plm.pl
+]0;user@user-Aspire-A515-53K: ~/ceccs18c63/cs232[01;32muser@user-Aspire-A515-53K[00m:[01;34m~/ceccs18c63/cs232[00m$ ent[K[K[Kgedit sum.plhello.pl perl factorial.pl
+]0;user@user-Aspire-A515-53K: ~/ceccs18c63/cs232[01;32muser@user-Aspire-A515-53K[00m:[01;34m~/ceccs18c63/cs232[00m$ gedit hello.pl perl factorial.plsum.pl[Khello.pl perl factorial.pl[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;user@user-Aspire-A515-53K: ~/ceccs18c63/cs232[01;32muser@user-Aspire-A515-53K[00m:[01;34m~/ceccs18c63/cs232[00m$ perlgedit hello.plperl factorial.pl[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csum.pl[Khello.pl perl factorial.pl[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pfactorial.pl[C[1P factorial.pl[1P factorial.pl[1P factorial.pl[1P factorial.pl[1P factorial.plp factorial.ple factorial.plr factorial.pll factorial.pl
+enter the limit 6
+factorial is 720
+]0;user@user-Aspire-A515-53K: ~/ceccs18c63/cs232[01;32muser@user-Aspire-A515-53K[00m:[01;34m~/ceccs18c63/cs232[00m$ perl hello.pl
+ Hello world 
+]0;user@user-Aspire-A515-53K: ~/ceccs18c63/cs232[01;32muser@user-Aspire-A515-53K[00m:[01;34m~/ceccs18c63/cs232[00m$ perl sum.l[Kpl
+Enter two numbers 
+4
+3
+Result is 7 
+]0;user@user-Aspire-A515-53K: ~/ceccs18c63/cs232[01;32muser@user-Aspire-A515-53K[00m:[01;34m~/ceccs18c63/cs232[00m$ exit
+exit
+
+Script done on 2020-06-10 21:23:45+0530

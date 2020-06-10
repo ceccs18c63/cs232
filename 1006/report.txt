@@ -1,0 +1,56 @@
+CEC CS 18 C63 10-06-2020
+DENSIL EDMOND
+
+
+--------------------------------
+#1:t8(2) perl    
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+
+
+	# Program to find the factorial of a number.
+	factorial.pl
+        
+        # Hello world program.
+	hello.pl
+
+        # Program to add two numbers.
+	sum.pl
+
+	
+
+--------------------------------
+Output: 
+
+	
+	
+
+	# Output of factorial.pl
+	
+	enter the limit 6
+        factorial is 720
+
+        
+	# Output of hello.pl
+	Hello world
+
+        # Output of sum.pl
+	Enter two numbers
+	4
+        3
+
+        Result is 7
+
+-------------------
+Remarks if any: 
+                Resubmitted because of file permission issues.
+
+
+-------------------
+-------------------
+-------------------
+-------------------
+------------------- 
